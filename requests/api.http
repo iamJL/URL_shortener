@@ -1,0 +1,8 @@
+//posting request using inbuilt REST 
+
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.amazon.in/Apple-MR972HN-15-4-inch-i7-8850H-Integrated/dp/B07G49GQ56/ref=sr_1_6?keywords=macbook&qid=1564229951&s=computers&sr=1-6"
+}
